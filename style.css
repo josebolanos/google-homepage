@@ -1,0 +1,112 @@
+    ul{
+     
+        display: flex;
+        list-style-type: none;
+       
+    }
+    li{
+        margin: 0 10px;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    .derecha{
+      margin-left: auto;
+    }
+ 
+ 
+    .imagengoogle{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+      
+    }
+   
+    .buscador{
+        display: flex;
+        justify-content: center; 
+    }
+    .buscador input{
+        color: transparent;
+        color:rgba(0, 0, 0, 87);
+        width: 600px;
+        height: 40px;
+        border-radius: 40px ;
+        margin-top: 20px; 
+        outline: none;
+        border: 1px solid rgb(219, 215, 215);
+    }
+    input:hover{
+        background-color: rgb(247, 247, 240);
+    }
+  
+   
+ 
+    .boton1{
+       margin: 30px;
+       background-color: rgb(255, 255, 253);
+       border-color: seashell;
+       border:none;
+       height: 30px;
+
+    }
+    button:hover{
+        background-color: rgb(247, 247, 240);
+       
+    }
+   
+    .botones{
+        display: flex;
+        justify-content: center;
+    }
+    .idiomas{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    a{
+        margin: 10px;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    footer{
+        background-color: rgb(250, 245, 245);
+        margin-top: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 170px;
+       
+    }
+    .pais {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        border-bottom: red;
+    }
+    .pais p{
+        margin-left: 20px;
+    }
+    hr{
+        margin-top: 0;
+    }
+    .emision{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .emision a {
+        color: black;
+    }
+    .descripcion{
+        display: flex;
+        justify-content: space-between;
+    }
+    .descripcion a {
+        color: black;
+    }
