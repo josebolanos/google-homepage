@@ -1,3 +1,4 @@
+
     ul{
      
         display: flex;
@@ -13,6 +14,12 @@
     .derecha{
       margin-left: auto;
     }
+    .micro{
+        display: flex;
+        justify-content: center;
+        
+    }
+ 
  
  
     .imagengoogle{
@@ -25,6 +32,7 @@
     .buscador{
         display: flex;
         justify-content: center; 
+        
     }
     .buscador input{
         color: transparent;
@@ -35,23 +43,29 @@
         margin-top: 20px; 
         outline: none;
         border: 1px solid rgb(219, 215, 215);
+        background-image: url(img/lupa.png);
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: left center;
     }
+
     input:hover{
-        background-color: rgb(247, 247, 240);
+        border-color: white;
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28); 
     }
   
-   
- 
     .boton1{
-       margin: 30px;
-       background-color: rgb(255, 255, 253);
-       border-color: seashell;
-       border:none;
-       height: 30px;
-
+        padding: 10px 20px;
+        margin: 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background-color: rgb(250, 245, 245);
+        color: #3b3b3b;
+        font-size: 14px;
     }
     button:hover{
-        background-color: rgb(247, 247, 240);
+        border-color: #dadce0;
+        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
        
     }
    
